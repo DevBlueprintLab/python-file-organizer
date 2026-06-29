@@ -9,6 +9,18 @@ A simple Python automation tool that organizes files into folders based on their
 
 This project was built as part of my Python automation learning journey and demonstrates working with folders, files, and automation using Python.
 
+## Before Running
+
+<img src="images/messy%20Downloads%20folder.png" width="500"/>
+
+## Terminal Output
+
+<img src="images/Terminal%20Output%202.png" width="500"/>
+
+## After Running
+
+<img src="images/After%20running.png" width="500"/>
+
 ## Features
 
 * 📁 Automatically creates folders if they don't exist.
