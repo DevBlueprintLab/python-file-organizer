@@ -6,11 +6,20 @@
 
 ---
 
-## ⚡ Overview
+##  Overview
 
 Automatically organizes messy folders into a clean structure in seconds.
 
+
+
+## ⭐ Why this project matters
+
+Manually organizing files is repetitive and time-consuming, especially in cluttered Downloads folders. 
+
+This tool automates the process, saving time and keeping files structured and easy to access.
+
 ---
+
 
 ## 🧠 Key Features
 
