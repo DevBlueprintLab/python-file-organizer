@@ -1,47 +1,67 @@
 # 📂 Python File Organizer
 
-
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-A simple Python automation tool that organizes files into folders based on their file extensions.
+## 🚀 What this project does
 
-This project was built as part of my Python automation learning journey and demonstrates working with folders, files, and automation using Python.
+A simple Python automation tool that organizes messy folders by sorting files into folders based on their file extensions.
 
-## Before Running
+This project was built as part of my Python automation learning journey and demonstrates working with files, folders, and automation using Python.
 
-<img src="images/messy%20Downloads%20folder.png" width="500"/>
+---
+### 🔍 Before Execution & Runtime Overview
+<p align="center">
+  <img src="images/messy%20Downloads%20folder.png" width="350"/>
+  <img src="images/Terminal%20Output%202.png" width="350"/>
+</p>
 
-## Terminal Output
+### ✨ Post-Execution Result
+<p align="center">
+  <img src="images/After%20running.png" width="500"/>
+</p>
 
-<img src="images/Terminal%20Output%202.png" width="500"/>
 
-## After Running
 
-<img src="images/After%20running.png" width="500"/>
+## ✨ Features
 
-## Features
+*  Automatically creates folders if they don't exist.
+*  Organizes image files.
+*  Organizes video files.
+*  Organizes PDF files.
+*  Organizes document files.
+*  Places unknown file types into an **Others** folder.
+*  Skips already organized folders.
+*  Displays how many files were moved.
+*  Prints each file as it is organized.
+*  Lists unknown file extensions encountered during execution.
 
-* 📁 Automatically creates folders if they don't exist.
-* 🖼️ Organizes image files.
-* 🎥 Organizes video files.
-* 📄 Organizes PDF files.
-* 📝 Organizes document files.
-* 📦 Places unknown file types into an **Others** folder.
-* 🚫 Skips already organized folders.
-* 📊 Displays how many files were moved.
-* 📋 Prints each file as it is organized.
-* 🔍 Lists unknown file extensions encountered during execution.
+---
 
-## Technologies Used
+## 🧠 What I Learned
+
+* Working with `pathlib`
+* Creating folders automatically
+* Traversing directories with `os.walk()`
+* Moving files using `shutil`
+* Handling different file types
+* Basic file automation
+* Writing cleaner and more readable Python code
+
+---
+
+## 🛠️ Technologies Used
 
 * Python 3
 * pathlib
 * os
 * shutil
 
-## Example Output
+---
+
+## 📊 Example Output
+
 
 ```
 ================
