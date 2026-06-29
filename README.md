@@ -2,65 +2,57 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
-## 🚀 What this project does
-
-A simple Python automation tool that organizes messy folders by sorting files into folders based on their file extensions.
-
-This project was built as part of my Python automation learning journey and demonstrates working with files, folders, and automation using Python.
+![Type](https://img.shields.io/badge/Type-Automation%20Tool-purple)
 
 ---
+
+## ⚡ Overview
+
+A lightweight Python automation tool that instantly organizes messy folders by sorting files into structured directories based on file type.
+
+Designed to eliminate clutter and turn disorganized downloads into a clean, categorized system in seconds.
+
+---
+
+## 🧠 Key Features
+
+- 📁 Automatically creates folders when needed
+- 🖼️ Organizes images, videos, PDFs, and documents
+- 📦 Moves unknown file types into an **Others** folder
+- 🚫 Skips already organized directories
+- 📊 Displays real-time file movement tracking
+- 🔍 Detects and reports unknown file extensions
+
+---
+
+## 🖥️ Demo
+
 ### 🔍 Before Execution & Runtime Overview
+
 <p align="center">
   <img src="images/messy%20Downloads%20folder.png" width="350"/>
   <img src="images/Terminal%20Output%202.png" width="350"/>
 </p>
 
 ### ✨ Post-Execution Result
+
 <p align="center">
   <img src="images/After%20running.png" width="500"/>
 </p>
 
-
-
-## ✨ Features
-
-*  Automatically creates folders if they don't exist.
-*  Organizes image files.
-*  Organizes video files.
-*  Organizes PDF files.
-*  Organizes document files.
-*  Places unknown file types into an **Others** folder.
-*  Skips already organized folders.
-*  Displays how many files were moved.
-*  Prints each file as it is organized.
-*  Lists unknown file extensions encountered during execution.
-
 ---
 
-## 🧠 What I Learned
+## 🛠️ Tech Stack
 
-* Working with `pathlib`
-* Creating folders automatically
-* Traversing directories with `os.walk()`
-* Moving files using `shutil`
-* Handling different file types
-* Basic file automation
-* Writing cleaner and more readable Python code
-
----
-
-## 🛠️ Technologies Used
-
-* Python 3
-* pathlib
-* os
-* shutil
+- Python 3
+- pathlib
+- os
+- shutil
 
 ---
 
 ## 📊 Example Output
+
 
 
 ```
