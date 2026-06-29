@@ -8,9 +8,7 @@
 
 ## ⚡ Overview
 
-A lightweight Python automation tool that instantly organizes messy folders by sorting files into structured directories based on file type.
-
-Designed to eliminate clutter and turn disorganized downloads into a clean, categorized system in seconds.
+Automatically organizes messy folders into a clean structure in seconds.
 
 ---
 
