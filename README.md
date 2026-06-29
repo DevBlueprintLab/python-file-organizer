@@ -1,73 +1,90 @@
-# Python file Organizer
-A simple Python automation script that automatically organizes files in your Downloads folder into categorized folders.
+# 📂 Python File Organizer
+
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+A simple Python automation tool that organizes files into folders based on their file extensions.
+
+This project was built as part of my Python automation learning journey and demonstrates working with folders, files, and automation using Python.
 
 ## Features
 
-  * Automatically sorts files into folders:
-  
-    * Images
-    * Videos
-    * PDFs
-    * Documents
-    * Others
-    
-* Prevents duplicate file moves
+* 📁 Automatically creates folders if they don't exist.
+* 🖼️ Organizes image files.
+* 🎥 Organizes video files.
+* 📄 Organizes PDF files.
+* 📝 Organizes document files.
+* 📦 Places unknown file types into an **Others** folder.
+* 🚫 Skips already organized folders.
+* 📊 Displays how many files were moved.
+* 📋 Prints each file as it is organized.
+* 🔍 Lists unknown file extensions encountered during execution.
 
-* Counts how many files were organized
+## Technologies Used
 
-* Detects unknown file types
+* Python 3
+* pathlib
+* os
+* shutil
 
-* Works with real Downloads folder using Path.home()
+## Example Output
 
-##  Technologies Used
+```
+================
+ FILE ORGANIZER
+================
 
- * Python 3
- * pathlib
- * os module
- * shutil module
+moving image: cat.jpg
+✓ Moved:
+cat.jpg -> Images
 
-##  How It Works
+moving pdf: report.pdf
+✓ Moved:
+report.pdf -> PDFs
 
-The script scans your Downloads folder and:
+Finished!
 
- 1. Detects file types based on extensions
- 2. Moves files into appropriate folders
- 3. Skips already organized files
- 4. Prints a summary of actions
+Images moved: 4
+Videos moved: 2
+PDFs moved: 3
+Documents moved: 5
+Other files moved: 1
+Unknown file types found: ['.psd']
+Total: 15
+```
 
-##  How to Run
+## Project Structure
 
-    python file_organizer.py
+```
+Downloads/
+│
+├── Images/
+├── Videos/
+├── PDFs/
+├── Documents/
+└── Others/
+```
 
-Make sure Python is installed on your system.
+## What I Learned
 
-##  Example Output
+* Working with `pathlib`
+* Creating folders automatically
+* Traversing directories with `os.walk()`
+* Moving files using `shutil`
+* Handling different file types
+* Basic file automation
+* Writing cleaner and more readable Python code
 
-    Moved:
-    cat.jpg -> Images
-    video.mp4 -> Videos
-    report.pdf -> PDFs
+## Future Improvements
 
-    Finished!
+* Handle duplicate filenames more elegantly.
+* Add logging instead of print statements.
+* Allow users to choose the folder to organize.
+* Replace repeated code with a cleaner dictionary-based solution.
+* Build a graphical user interface (GUI).
 
-    Images moved: 5
-    Videos moved: 2
-    PDFs moved: 3
-    Documents moved: 4
-    Other files moved: 1
-    Total: 15
+---
 
-##  What I Learned
-
- * File handling in Python
- * Using pathlib for cross-platform paths
- * Automating repetitive tasks
- * Working with os.walk()
- * Handling file operations safely
-
-##  Future Improvements
-
-  * Handle duplicate file renaming
-  * Add GUI version
-  * Schedule automatic runs
-  * Improve file type detection
+Created by **DevBlueprint Lab**
