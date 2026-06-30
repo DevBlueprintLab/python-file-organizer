@@ -8,7 +8,7 @@
 
 ##  Overview
 
-Automatically organizes messy folders into a clean structure in seconds.
+Automatically organizes messy folders by sorting files into categorized directories in seconds.
 
 
 
@@ -57,6 +57,14 @@ This tool automates the process, saving time and keeping files structured and ea
 - shutil
 
 ---
+
+## 🚀 How to Run
+
+```bash
+python file_organizer.py
+```
+
+ Watch your files get organized automatically.
 
 ## 📊 Example Output
 
